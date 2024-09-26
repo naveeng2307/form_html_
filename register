@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit.html" method="post">
+        <center>
+            <table cellpadding="10" cellspacing="10">
+                <tr>
+                    <center><h1>STUDENT REGISTATION FORM</h1></center>
+                </tr>
+                <tr>
+                    <td>first name</td>
+                    <td><input type="text"> (max 30 characters a-z & A-Z)</td>
+                </tr>
+                <tr>
+                    <td>father name</td>
+                    <td><input type="text"> (max 30 characters a-z & A-Z)</td>
+                </tr>
+                <tr>
+                    <td>date of bitrth</td>
+                    <td>
+                        <select name="Date">
+                            <option value="Date">Date</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select name="Month">
+                            <option value="Month">Month</option>
+                            <option value="jan">janvary</option>
+                            <option value="fib">fibravary</option>
+                            <option value="marc">march</option>
+                            <option value="apl">april</option>
+                            <option value="may">may</option>
+                            <option value="june">june</option>
+                            <option value="july">july</option>
+                            <option value="aug">augest</option>
+                            <option value="sep">september</option>
+                            <option value="oct">octumper</option>
+                            <option value="nov">novoumber</option>
+                            <option value="des">desumber</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>email id</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>mobile number</td>
+                    <td><input type="text"> (10 digit number)</td>
+                </tr>
+                <tr>
+                    <td>gender</td>
+                    <td>male<input type="radio">female<input type="radio"></td>
+                </tr>
+                <tr>
+                    <td>address</td>
+                    <td><input type="text"></td>
+                </tr><tr>
+                    <td>city</td>
+                    <td><input type="text"> (max 30 characters a-z & A-Z)</td>
+                </tr>
+                <tr>
+                    <td>pin code</td>
+                    <td><input type="text"> (6 didit number)</td>
+                </tr>
+                <tr>
+                    <td>state</td>
+                    <td><input type="text"> (max 30 characters a-z & A-Z)</td>
+                </tr>
+                <tr>
+                    <td>country</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>hobbies</td>
+                    <td>
+                        drawing<input type="checkbox">
+                        sketching<input type="checkbox">
+                        singing<input type="checkbox">
+                        dansing<input type="checkbox">
+                        others<input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>qualification</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>s.no</td>
+                                <td>examination</td>
+                                <td>board</td>
+                                <td>persenage</td>
+                                <td>years of passing</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>class X</td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>class XII</td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>graduation</td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>masters</td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>couress apply for</td>
+                    <td>
+                        bca<input type="radio">
+                        b.com<input type="radio">
+                        ba<input type="radio">
+                        b.sc<input type="radio">
+                    </td>
+                </tr>
+            </table>
+            <button>submit</button>
+        </center>  
+    </form>  
+</body>
+</html>
